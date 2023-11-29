@@ -110,7 +110,7 @@ async function getOpenAIReply(prompt) {
   const config = {
     method: 'post',
     maxBodyLength: Infinity,
-    url: 'https://api.openai.com/v1/chat/completions',
+    url: 'https://api.aiproxy.io/v1/chat/completions',
     headers: {
       Authorization: `Bearer ${OPENAI_KEY}`,
       "Content-Type": "application/json",
